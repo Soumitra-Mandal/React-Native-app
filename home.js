@@ -1,12 +1,12 @@
 import React from 'react';
-import { StyleSheet, Text, View,Button, ScrollView} from 'react-native';
+import { StyleSheet, Text, View, ScrollView} from 'react-native';
 
 export default function Home ({navigation}) {
  
     return (
 <>
 <View style = {homestyles.container}>
-    <Text style={homestyles.heading}>Sidhant</Text>
+    <Text style={homestyles.heading}>Soumitra</Text>
 </View>
 <ScrollView>
 <Text style={homestyles.para}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit auctor euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque vel dolor dui. In fermentum ligula elementum sem venenatis, a vehicula est tincidunt.</Text>
@@ -29,7 +29,7 @@ const homestyles = StyleSheet.create({
     heading:{
         fontWeight:"bold",
         fontSize:20,
-        color:"red"
+        color:"green"
         
   },
   para:{

@@ -28,6 +28,7 @@ this.setState({isstopped:!this.state.isstopped});
 
   render() {
     return (
+     
       <View style = {timerstyles.container}>
       <Text style ={{fontWeight:"bold", fontSize:25}}>{this.state.time} s</Text>
       <View style = {timerstyles.start}>
