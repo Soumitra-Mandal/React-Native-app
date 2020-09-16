@@ -32,7 +32,7 @@ this.setState({isstopped:!this.state.isstopped});
       <View style = {timerstyles.container}>
       <Text style ={{fontWeight:"bold", fontSize:25}}>{this.state.time} s</Text>
       <View style = {timerstyles.start}>
-      <Button  color="#66cd5e" onPress ={this.startTimer} title={this.state.isstopped ? 'START' : 'STOP'}/>
+      <Button  color="#66cc5e" onPress ={this.startTimer} title={this.state.isstopped ? 'START' : 'STOP'}/>
       </View>
       <View style = {timerstyles.stop}>
       <Button color="black"  onPress ={this.resetTimer} title="RESET"/>
