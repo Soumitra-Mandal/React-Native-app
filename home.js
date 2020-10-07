@@ -22,14 +22,17 @@ const homestyles = StyleSheet.create({
       alignItems: 'center',
       justifyContent: 'center', 
       position:'absolute',
-      top:'10%',
-      left:'25%'  
+      top:'8%',
+      left:'25%',
+      backgroundColor:'black' 
         
     },
     heading:{
         fontWeight:"bold",
         fontSize:20,
-        color:"green"
+        color:"white",
+        padding:3,
+        margin:3
         
   },
   para:{
